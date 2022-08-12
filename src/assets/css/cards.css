@@ -1,0 +1,248 @@
+/* -------------------- */
+/*      cards img       */
+/* -------------------- */
+
+.card {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  background-color: white;
+}
+.last_card {
+  z-index: 100;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card_verso_a {
+  background-image: url("./assets/img/backcards/Card_back_05.svg");
+}
+.card_verso_b {
+  background-image: url("./assets/img/backcards/Card_back_05a.svg");
+}
+.card_verso_c {
+  background-image: url("./assets/img/backcards/Card_back_12.svg");
+}
+.card_verso_d {
+  background-image: url("./assets/img/backcards/Card_back_15.svg");
+}
+.card_verso_e {
+  background-image: url("./assets/img/backcards/Card_back_16.svg");
+}
+.card_verso_f {
+  background-image: url("./assets/img/backcards/Card_back_17.svg");
+}
+
+.one_A {
+  /* as de coeur */
+  background-image: url("./assets/img/hearts/Cards-A-Heart.svg");
+}
+.two_A {
+  /* deux de coeur */
+  background-image: url("./assets/img/hearts/Cards-2-Heart.svg");
+}
+.three_A {
+  /* trois de coeur */
+  background-image: url("./assets/img/hearts/Cards-3-Heart.svg");
+}
+.four_A {
+  /* quatre de coeur */
+  background-image: url("./assets/img/hearts/Cards-4-Heart.svg");
+}
+.five_A {
+  /* cinq de coeur */
+  background-image: url("./assets/img/hearts/Cards-5-Heart.svg");
+}
+.six_A {
+  /* six de coeur */
+  background-image: url("./assets/img/hearts/Cards-6-Heart.svg");
+}
+.seven_A {
+  /* sept de coeur */
+  background-image: url("./assets/img/hearts/Cards-7-Heart.svg");
+}
+.eight_A {
+  /* huit de coeur */
+  background-image: url("./assets/img/hearts/Cards-8-Heart.svg");
+}
+.nine_A {
+  /* neuf de coeur */
+  background-image: url("./assets/img/hearts/Cards-9-Heart.svg");
+}
+.ten_A {
+  /* dix de coeur */
+  background-image: url("./assets/img/hearts/Cards-10-Heart.svg");
+}
+.eleven_A {
+  /* valet de coeur */
+  background-image: url("./assets/img/hearts/Cards-J-Heart.svg");
+}
+.twelve_A {
+  /* reine de coeur */
+  background-image: url("./assets/img/hearts/Cards-Q-Heart.svg");
+}
+.thirteen_A {
+  /* roi de coeur */
+  background-image: url("./assets/img/hearts/Cards-K-Heart.svg");
+}
+
+.one_B {
+  /* as de pique */
+  background-image: url("./assets/img/spades/Cards-A-Spade.svg");
+}
+.two_B {
+  /* deux de pique */
+  background-image: url("./assets/img/spades/Cards-2-Spade.svg");
+}
+.three_B {
+  /* trois de pique */
+  background-image: url("./assets/img/spades/Cards-3-Spade.svg");
+}
+.four_B {
+  /* quatre de pique */
+  background-image: url("./assets/img/spades/Cards-4-Spade.svg");
+}
+.five_B {
+  /* cinq de pique */
+  background-image: url("./assets/img/spades/Cards-5-Spade.svg");
+}
+.six_B {
+  /* six de pique */
+  background-image: url("./assets/img/spades/Cards-6-Spade.svg");
+}
+.seven_B {
+  /* sept de pique */
+  background-image: url("./assets/img/spades/Cards-7-Spade.svg");
+}
+.eight_B {
+  /* huit de pique */
+  background-image: url("./assets/img/spades/Cards-8-Spade.svg");
+}
+.nine_B {
+  /* neuf de pique */
+  background-image: url("./assets/img/spades/Cards-9-Spade.svg");
+}
+.ten_B {
+  /* dix de pique */
+  background-image: url("./assets/img/spades/Cards-10-Spade.svg");
+}
+.eleven_B {
+  /* valet de pique */
+  background-image: url("./assets/img/spades/Cards-J-Spade.svg");
+}
+.twelve_B {
+  /* reine de pique */
+  background-image: url("./assets/img/spades/Cards-Q-Spade.svg");
+}
+.thirteen_B {
+  /* roi de pique */
+  background-image: url("./assets/img/spades/Cards-K-Spade.svg");
+}
+
+.one_C {
+  /* as de carrot */
+  background-image: url("./assets/img/diamonds/Cards-A-Diamond.svg");
+}
+.two_C {
+  /* deux de carrot */
+  background-image: url("./assets/img/diamonds/Cards-2-Diamond.svg");
+}
+.three_C {
+  /* trois de carrot */
+  background-image: url("./assets/img/diamonds/Cards-3-Diamond.svg");
+}
+.four_C {
+  /* quatre de carrot */
+  background-image: url("./assets/img/diamonds/Cards-4-Diamond.svg");
+}
+.five_C {
+  /* cinq de carrot */
+  background-image: url("./assets/img/diamonds/Cards-5-Diamond.svg");
+}
+.six_C {
+  /* six de carrot */
+  background-image: url("./assets/img/diamonds/Cards-6-Diamond.svg");
+}
+.seven_C {
+  /* sept de carrot */
+  background-image: url("./assets/img/diamonds/Cards-7-Diamond.svg");
+}
+.eight_C {
+  /* huit de carrot */
+  background-image: url("./assets/img/diamonds/Cards-8-Diamond.svg");
+}
+.nine_C {
+  /* neuf de carrot */
+  background-image: url("./assets/img/diamonds/Cards-9-Diamond.svg");
+}
+.ten_C {
+  /* dix de carrot */
+  background-image: url("./assets/img/diamonds/Cards-10-Diamond.svg");
+}
+.eleven_C {
+  /* valet de carrot */
+  background-image: url("./assets/img/diamonds/Cards-J-Diamond.svg");
+}
+.twelve_C {
+  /* reine de carrot */
+  background-image: url("./assets/img/diamonds/Cards-Q-Diamond.svg");
+}
+.thirteen_C {
+  /* roi de carrot */
+  background-image: url("./assets/img/diamonds/Cards-K-Diamond.svg");
+}
+
+.one_D {
+  /* as de trèfle */
+  background-image: url("./assets/img/clubs/Cards-A-Club.svg");
+}
+.two_D {
+  /* deux de trèfle */
+  background-image: url("./assets/img/clubs/Cards-2-Club.svg");
+}
+.three_D {
+  /* trois de trèfle */
+  background-image: url("./assets/img/clubs/Cards-3-Club.svg");
+}
+.four_D {
+  /* quatre de trèfle */
+  background-image: url("./assets/img/clubs/Cards-4-Club.svg");
+}
+.five_D {
+  /* cinq de trèfle */
+  background-image: url("./assets/img/clubs/Cards-5-Club.svg");
+}
+.six_D {
+  /* six de trèfle */
+  background-image: url("./assets/img/clubs/Cards-6-Club.svg");
+}
+.seven_D {
+  /* sept de trèfle */
+  background-image: url("./assets/img/clubs/Cards-7-Club.svg");
+}
+.eight_D {
+  /* huit de trèfle */
+  background-image: url("./assets/img/clubs/Cards-8-Club.svg");
+}
+.nine_D {
+  /* neuf de trèfle */
+  background-image: url("./assets/img/clubs/Cards-9-Club.svg");
+}
+.ten_D {
+  /* dix de trèfle */
+  background-image: url("./assets/img/clubs/Cards-10-Club.svg");
+}
+.eleven_D {
+  /* valet de trèfle */
+  background-image: url("./assets/img/clubs/Cards-J-Club.svg");
+}
+.twelve_D {
+  /* reine de trèfle */
+  background-image: url("./assets/img/clubs/Cards-Q-Club.svg");
+}
+.thirteen_D {
+  /* roi de trèfle */
+  background-image: url("./assets/img/clubs/Cards-K-Club.svg");
+}
